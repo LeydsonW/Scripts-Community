@@ -180,7 +180,7 @@ script_manager = {
                 enabled = false
             },
             ['Atk 2'] = {
-                url = 'https://raw.githubusercontent.com/ryanzin/OTCV8/main/Atk2.lua',
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Healing/Atk2.lua',
                 description = 'Script de Bug Map PC.',
                 author = 'Ryan',
                 enabled = false
