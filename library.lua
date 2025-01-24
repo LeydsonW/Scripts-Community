@@ -2,7 +2,7 @@
 
   Scroll Bar Function
 
-  Id: Nome que irá ficar salvo no storage, usado para salvar os valrores.
+  Id: Nome que irá ficar salvo no storage, usado para salvar os valores.
   Title: Titulo principal.
   Min: Valor minimo.
   Max: Valor máximo.
@@ -13,7 +13,7 @@
 
 local scrollBarLayout = [[
 Panel
-  height: 28
+  height: 10
   margin-top: 3
 
   UIWidget
