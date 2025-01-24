@@ -220,7 +220,7 @@ MainWindow
                                     label.onClick = function(widget)
                                         value.enabled = not value.enabled;
                                         script_bot.saveScripts();
-                                        label.textToSet:setColor(value.enabled and 'green' or '#bdbdbd');
+                                        label.textToSet:setColor(value.enabled and '#c68bf7' or '#bdbdbd');
                                         if value.enabled then
                                         -- loadRemoteScript(value.url);
                                         end
