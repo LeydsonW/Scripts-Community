@@ -179,6 +179,12 @@ script_manager = {
                 author = 'Ryan',
                 enabled = false
             },
+            ['Atk 2'] = {
+                url = 'https://raw.githubusercontent.com/ryanzin/OTCV8/main/Atk2.lua',
+                description = 'Script de Bug Map PC.',
+                author = 'Ryan',
+                enabled = false
+            },
             ['Sense'] = {
                 url = 'https://raw.githubusercontent.com/ryanzin/OTCV8/main/xNameSense.lua',
                 description = 'Script de sense, escreva "xNICK" para dar sense no nick e x0 para limpar o sense.',
