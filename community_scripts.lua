@@ -227,7 +227,7 @@ MainWindow
                                     end
 
                                     if value.enabled then
-                                        label.textToSet:setColor('green');
+                                        label.textToSet:setColor('#c68bf7');
                                     end
 
                                     label:setId(key);
