@@ -17,8 +17,8 @@ end
 actualVersion = 0.4;
 
 local libraryList = {
-    'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/refs/heads/main/library.lua',
-    'https://raw.githubusercontent.com/mrlthebest/Community-Scripts/refs/heads/main/script_list.lua'
+    'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/refs/heads/main/library.lua',
+    'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/refs/heads/main/script_list.lua'
 }
 
 -- Load libraries
