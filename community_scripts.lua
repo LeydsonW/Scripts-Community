@@ -266,7 +266,7 @@ MainWindow
 
                                         tab.onStyleApply = function(widget)
                                             if script_bot.widget.macrosOptions:getCurrentTab() == widget then
-                                                widget:setColor('green');
+                                                widget:setColor('#c68bf7');
                                             else
                                                 widget:setColor('white');
                                             end
