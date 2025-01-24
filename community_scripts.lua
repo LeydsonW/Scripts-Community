@@ -227,7 +227,7 @@ MainWindow
                                     end
 
                                     if value.enabled then
-                                        label.textToSet:setColor('#c68bf7');
+                                        label.textToSet:setColor('green');
                                     end
 
                                     label:setId(key);
@@ -266,7 +266,7 @@ MainWindow
 
                                         tab.onStyleApply = function(widget)
                                             if script_bot.widget.macrosOptions:getCurrentTab() == widget then
-                                                widget:setColor('#c68bf7');
+                                                widget:setColor('green');
                                             else
                                                 widget:setColor('white');
                                             end
