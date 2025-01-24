@@ -220,7 +220,7 @@ MainWindow
                                     label.onClick = function(widget)
                                         value.enabled = not value.enabled;
                                         script_bot.saveScripts();
-                                        -- label.textToSet:setColor(value.enabled and 'green' or '#bdbdbd');
+                                        label.textToSet:setColor(value.enabled and 'green' or '#bdbdbd');
                                         if value.enabled then
                                         -- loadRemoteScript(value.url);
                                         end
@@ -266,7 +266,7 @@ MainWindow
 
                                         tab.onStyleApply = function(widget)
                                             if script_bot.widget.macrosOptions:getCurrentTab() == widget then
-                                                widget:setColor('green');
+                                                widget:setColor('#c68bf7');
                                             else
                                                 widget:setColor('white');
                                             end
