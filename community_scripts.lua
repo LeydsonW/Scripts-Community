@@ -158,7 +158,7 @@ MainWindow
                         updateLabel:hide();
 
                         -- Define buttons
-                        script_bot.buttonWidget = UI.Button('Script Manager', function()
+                        script_bot.buttonWidget = UI.Button('Community Scripts', function()
                             if script_bot.widget:isVisible() then
                                 reload();
                             else
