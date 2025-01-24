@@ -14,7 +14,7 @@
 local scrollBarLayout = [[
 Panel
   height: 28
-  margin-top: 3
+  margin-top: 0
 
   UIWidget
     id: text
