@@ -26,7 +26,7 @@ script_manager = {
                 enabled = false
             },
             ['Defensive Speel'] = {
-                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Healing/defensive_speel.lua',
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Healing/defensive_spell.lua',
                 description = 'Soltar as spells defensivas automaticamente.',
                 author = 'Ley',
                 enabled = false
@@ -52,6 +52,12 @@ script_manager = {
             ['Train Powerdown'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Healing/train_mana.lua',
                 description = 'Treina ninjutsu.',
+                author = 'Ley',
+                enabled = false
+            },
+            ['Anti-Paralyse'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Healing/train_mana.lua',
+                description = 'Usa as spells de anti-paralyse automaticamente.',
                 author = 'Ley',
                 enabled = false
             },
