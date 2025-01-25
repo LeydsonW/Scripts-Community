@@ -33,7 +33,7 @@ local doorContainer = UI.Container(function(widget, items)
   doorId = properTable(storage.doorIds)
 end)
 
-doorContainer:setHeight(35)
+doorContainer:setHeight(50)
 doorContainer:setItems(storage.doorIds)
 doorId = properTable(storage.doorIds)
 
