@@ -1,6 +1,6 @@
 local macroName = 'Use Doors';
 local macroDelay = 1000;
-setDefaultTab(tabName);
+setDefaultTab('Utils');
 
 
 --[[
@@ -26,12 +26,12 @@ local function properTable(t)
 end
 
 addSeparator()
-UI.Label("Door IDs", tabName)
+UI.Label("Door IDs")
 
 local doorContainer = UI.Container(function(widget, items)
   storage.doorIds = items
   doorId = properTable(storage.doorIds)
-end, tabName)
+end)
 
 doorContainer:setHeight(35)
 doorContainer:setItems(storage.doorIds)
@@ -56,5 +56,5 @@ clickDoor = macro(macroDelay, macroName, function()
           end
       end
   end
-end, tabName)
+end)
 addSeparator()
