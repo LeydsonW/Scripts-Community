@@ -1,13 +1,8 @@
 local macroName = 'Utura';
 local macroDelay = 100;
 setDefaultTab('Utils');
+addSeparator()
 
-
---[[
-  Script made by Lee (Discord: l33_) - www.trainorcreations.com
-  If you want to support my work, feel free to donate at https://trainorcreations.com/donate
-  PS. Stop ripping off my work and selling it as your own.
-]]--
 local panelName = "autoParty"
 local autopartyui = setupUI([[
 Panel
