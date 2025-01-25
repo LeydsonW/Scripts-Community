@@ -5,8 +5,7 @@
 ]]--
 local macroName = 'Monster Kill';
 local macroDelay = 100;
-local tabName = 'Utils';
-setDefaultTab(tabName);
+setDefaultTab("Main");
 addSeparator()
 local mkPanelname = "monsterKill"
 if not storage[mkPanelname] then storage[mkPanelname] = { min = false } end
