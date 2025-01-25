@@ -32,13 +32,13 @@ script_manager = {
             -- },
             ['Death Counter'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/death_counter.lua',
-                description = 'Script de contagem de morte.',
+                description = 'Contagem de mortes.',
                 author = 'Ley',
                 enabled = false
             },
-            ['Kill Counter'] = {
+            ['Monster Kills'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/kill_count.lua',
-                description = 'Script de contagem de kills.',
+                description = 'Conta quantos monstros voce matou e mostra o loot. [BUGADO]',
                 author = 'Ley',
                 enabled = false
             },
