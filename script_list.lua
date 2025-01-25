@@ -22,6 +22,17 @@ script_manager = {
            
         },
 
+        Main = {
+           
+            ['Monster Kills'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/kill_count.lua',
+                description = 'Conta quantos monstros voce matou e mostra o loot. [BUGADO]',
+                author = 'Ley',
+                enabled = false
+            },
+
+        },
+
         Utilities = {
             
             -- ['Combo + Combo Interrupt'] = {
@@ -33,12 +44,6 @@ script_manager = {
             ['Death Counter'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/death_counter.lua',
                 description = 'Contagem de mortes.',
-                author = 'Ley',
-                enabled = false
-            },
-            ['Monster Kills'] = {
-                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/kill_count.lua',
-                description = 'Conta quantos monstros voce matou e mostra o loot. [BUGADO]',
                 author = 'Ley',
                 enabled = false
             },
@@ -61,7 +66,7 @@ script_manager = {
                 enabled = false
             },
             ['Auto Door'] = {
-                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/use_nearby_door.lua',
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/auto_door.lua',
                 description = 'Script de usar a porta mais proxima(5 sqm). [NÃO TA FUNCIONANDO]',
                 author = 'Ley',
                 enabled = false
@@ -76,6 +81,24 @@ script_manager = {
             --     url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/alarm.lua',
             --     description = 'Script de alarm.',
             --     author = 'AnenScripts',
+            --     enabled = false
+            -- },
+            -- ['Loot Channel'] = {
+            --     url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/loot_channel.lua',
+            --     description = 'Canal exclusivo de loot.',
+            --     author = 'Ley',
+            --     enabled = false
+            -- },
+            -- ['Turn Target'] = {
+            --     url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/turn_target.lua',
+            --     description = 'Sempre fica virado para o alvo.',
+            --     author = 'Ley',
+            --     enabled = false
+            -- },
+            -- ['Creature Hp'] = {
+            --     url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/creature_hp.lua',
+            --     description = 'Mostra a porcentagem de todas as criaturas que levar dano.',
+            --     author = 'Ley',
             --     enabled = false
             -- },
             ['Dance'] = {
