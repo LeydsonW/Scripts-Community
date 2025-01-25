@@ -1,4 +1,4 @@
-setDefaultTab("HP");
+setDefaultTab("HP")
 addSeparator()
 
 buffz = macro(1000, "BUFF", function()
