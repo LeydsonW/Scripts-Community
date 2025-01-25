@@ -1,6 +1,5 @@
 local macroName = 'Use Doors';
 local macroDelay = 1000;
-tabName = "Utils"
 setDefaultTab(tabName);
 
 
@@ -57,5 +56,5 @@ clickDoor = macro(macroDelay, macroName, function()
           end
       end
   end
-end)
+end, tabName)
 addSeparator()
