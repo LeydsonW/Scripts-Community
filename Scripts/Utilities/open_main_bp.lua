@@ -7,4 +7,5 @@ macro(macroDelay, macroName, function()
     if not getContainers()[0] and getBack() then
         g_game.open(getBack())
     end
-end, setDefaultTab('Utils'))
+setDefaultTab('Utils')
+end)
