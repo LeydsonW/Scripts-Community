@@ -55,9 +55,9 @@ script_manager = {
                 author = 'Ley',
                 enabled = false
             },
-            ['Anti-Paralyse'] = {
-                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Healing/train_mana.lua',
-                description = 'Usa as spells de anti-paralyse automaticamente.',
+            ['Anti-Paralyze'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Healing/anti_paralyze.lua',
+                description = 'Usa as spells de anti-paralysze automaticamente.',
                 author = 'Ley',
                 enabled = false
             },
