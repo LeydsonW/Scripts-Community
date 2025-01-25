@@ -4,11 +4,11 @@ setDefaultTab('Utils');
 
 UI.TextEdit(storage.logoutDeaths or "5", function(widget, text)
   storage.logoutDeaths = tonumber(text);
-end, 'Utils');
+end);
 if type(storage["death"]) ~= "table" then storage["death"] = { count = 0 } end
 local deathCount = storage["death"].count
-UI.Separator('Utils')
-deathLabel = UI.Label("Death count: " .. deathCount, 'Utils')
+addSeparator()
+deathLabel = UI.Label("Death count: " .. deathCount)
 
 if deathCount >= storage.logoutDeaths then
   CaveBot:setOff()
@@ -30,9 +30,9 @@ UI.Button("Reset Deaths", function()
   storage["death"].count = 0
   deathLabel:setText("Death count: " .. storage["death"].count)
   deathLabel:setColor("green")
-end, 'Utils')
+end)
 
-local macroDeathCount = macro(macroDelay, macroName, function() end, 'Utils')
+local macroDeathCount = macro(macroDelay, macroName, function() end)
 
 onTextMessage(function(mode, text)
   if macroDeathCount.isOff() then return end
@@ -43,4 +43,4 @@ onTextMessage(function(mode, text)
   end
 end)
 
-UI.Separator()
+addSeparator()
