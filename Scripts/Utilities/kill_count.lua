@@ -1,4 +1,5 @@
-setDefaultTab("Main");
+setDefaultTab("Utils");
+addSeparator()
 addSeparator()
 
 local macroName = 'Monster Kill';
