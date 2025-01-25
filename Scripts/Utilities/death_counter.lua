@@ -1,7 +1,6 @@
 local macroName = 'Death Counter';
 local macroDelay = 10000;
-tabName = 'Utils'
-setDefaultTab(tabName);
+setDefaultTab('Utils');
 
 UI.TextEdit(storage.logoutDeaths or "5", function(widget, text)
   storage.logoutDeaths = tonumber(text);
