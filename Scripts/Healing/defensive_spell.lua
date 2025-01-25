@@ -1,6 +1,10 @@
 setDefaultTab("HP")
 addSeparator()
 
+lblInfo= UI.Label("-- DEFENSIVO --")
+lblInfo:setColor("#c68bf7")
+addSeparator()
+
 if type(storage.healing3) ~= "table" then
     storage.healing3 = {on=false, title="HP%", text="fuga", min=0, max=80}
   end

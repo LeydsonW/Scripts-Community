@@ -1,6 +1,10 @@
 setDefaultTab("HP")
 addSeparator()
 
+lblInfo= UI.Label("-- TREINO --")
+lblInfo:setColor("#c68bf7")
+addSeparator()
+
 if type(storage.manatrainer) ~= "table" then
     storage.manatrainer = {on=false, title="mana%", text="Power Down", min=0, max=90}
   end

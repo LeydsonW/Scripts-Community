@@ -1,6 +1,10 @@
 setDefaultTab("HP")
 addSeparator()
 
+lblInfo= UI.Label("-- BUFF --")
+lblInfo:setColor("#c68bf7")
+addSeparator()
+
 buffz = macro(1000, "BUFF", function()
     local buff = storage.buff
     local buff2 = storage.buff2
