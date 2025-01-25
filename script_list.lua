@@ -108,13 +108,13 @@ script_manager = {
             -- },
             ['Hide Effects'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/hide_effects.lua',
-                description = 'Script de esconder os efeitos.',
-                author = 'UzumarTayhero',
+                description = 'Esconde todos os efeitos.',
+                author = 'Ley',
                 enabled = false
             },
             ['Open Main BP'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/open_main_bp.lua',
-                description = 'Script de abrir a backpack principal.',
+                description = 'Mantém aberta a backpack principal.',
                 author = 'Ley',
                 enabled = false
             },
