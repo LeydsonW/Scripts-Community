@@ -19,3 +19,5 @@ buffz = macro(1000, "BUFF", function()
   addTextEdit("BUFF 2", storage.buff2 or "buff magia 2", function(widget, text) 
     storage.buff2 = text
   end) 
+
+addIcon("Buff", {item=14381, text="Buff", hotkey="F11"},buffz)
