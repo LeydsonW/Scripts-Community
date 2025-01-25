@@ -11,7 +11,7 @@ else
     script_path = '/scripts_storage/';
     script_path_json = script_path .. player:getName() .. '.json';
     setDefaultTab('Main')
-    tabName = getTab('Utils') or setDefaultTab('Utils')
+    tabName = getTab('Main') or setDefaultTab('Main')
 
 -- Actual Version
 actualVersion = 0.4;
