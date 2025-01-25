@@ -25,13 +25,13 @@ local function properTable(t)
   return r
 end
 
-UI.Separator(Utils)
-UI.Label("Door IDs", Utils)
+UI.Separator()
+UI.Label("Door IDs")
 
 local doorContainer = UI.Container(function(widget, items)
   storage.doorIds = items
   doorId = properTable(storage.doorIds)
-end, Utils)
+end)
 
 doorContainer:setHeight(35)
 doorContainer:setItems(storage.doorIds)
@@ -56,5 +56,5 @@ clickDoor = macro(macroDelay, macroName, function()
           end
       end
   end
-end, Utils)
-UI.Separator(Utils)
+end)
+UI.Separator()
