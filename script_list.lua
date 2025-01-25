@@ -114,16 +114,16 @@ script_manager = {
             },
             ['Open Main BP'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/open_main_bp.lua',
-                description = 'Script de abrir a bp principal.',
-                author = 'VivoDibra',
+                description = 'Script de abrir a backpack principal.',
+                author = 'Ley',
                 enabled = false
             },
-            -- ['Spy Level'] = {
-            --     url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/spy_level.lua',
-            --     description = 'Script de mostrar o andar de cima(=)/baixo(-)',
-            --     author = 'vBot',
-            --     enabled = false
-            -- },
+            ['Spy Level'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/spy_level.lua',
+                description = 'Script de mostrar o andar de cima(=)/baixo(-)',
+                author = 'vBot',
+                enabled = false
+            },
             ['Use Nearby Door'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Utilities/use_nearby_door.lua',
                 description = 'Script de usar a porta mais proxima(5 sqm).',
