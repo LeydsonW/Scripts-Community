@@ -1,6 +1,6 @@
 local macroName = 'Utura';
 local macroDelay = 100;
-setDefaultTab(tabName);
+setDefaultTab('Utils');
 
 
 --[[
