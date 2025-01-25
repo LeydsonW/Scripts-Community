@@ -1,2 +1,0 @@
-setDefaultTab("Main")
-addSeparator()

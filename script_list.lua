@@ -19,7 +19,42 @@ script_manager = {
         },
 
         Healing = {
-           
+            ['Hp Regen'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Nto/hp_regen.lua',
+                description = 'Regenera HP automaticamente.',
+                author = 'Ley',
+                enabled = false
+            },
+            ['Defensive Speel'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Nto/defensive_speel.lua',
+                description = 'Soltar as spells defensivas automaticamente.',
+                author = 'Ley',
+                enabled = false
+            },
+            ['Potions'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Nto/potions.lua',
+                description = 'Usa as pocoes automaticamente.',
+                author = 'Ley',
+                enabled = false
+            },
+            ['Speed'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Nto/speed.lua',
+                description = 'Usa as spells de speed automaticamente.',
+                author = 'Ley',
+                enabled = false
+            },
+            ['Buff'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Nto/buff.lua',
+                description = 'Usa as spells de Buff automaticamente.',
+                author = 'Ley',
+                enabled = false
+            },
+            ['Train Powerdown'] = {
+                url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Nto/train_mana.lua',
+                description = 'Treina ninjutsu.',
+                author = 'Ley',
+                enabled = false
+            },
         },
 
         Main = {
