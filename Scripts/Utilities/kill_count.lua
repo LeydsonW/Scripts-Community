@@ -1,4 +1,4 @@
-setDefaultTab("Utils");
+setDefaultTab("Utils")
 addSeparator()
 addSeparator()
 
