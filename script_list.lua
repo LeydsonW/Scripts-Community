@@ -57,7 +57,7 @@ script_manager = {
             },
             ['Anti-Paralyze'] = {
                 url = 'https://raw.githubusercontent.com/LeydsonW/Scripts-Community/main/Scripts/Healing/anti_paralyze.lua',
-                description = 'Usa as spells de anti-paralysze automaticamente.',
+                description = 'Usa as spells de anti-paralyze automaticamente.',
                 author = 'Ley',
                 enabled = false
             },
